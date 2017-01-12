@@ -1,8 +1,8 @@
 body
 {
- background: rgb(22, 21, 20);
+ background: black;
  font-size: 16px;
-}
+#}
 
 a
 {
@@ -11,7 +11,7 @@ a
 
 ul
 {
-  margin: 20% 0 0% 0%;
+  margin: 10% 0 0% 0%;
 }
 
 ul li
@@ -21,15 +21,17 @@ ul li
 
 ul li a
 {
- text-decoration: none; 
+ text-decoration: none;
+ font-family:"Arial Bold", Gadget, sans-serif;
 }
 
 ul li a p
 {
   width: 75%;
   list-style-type: none;
-  background: #E94016;
+  background: #820000;
   border-bottom: solid thin white;
+  border-radius: 5px;
   padding: .3em 1em .3em;
   text-decoration: none;
   color: white;
@@ -47,17 +49,19 @@ h1
   line-height: 32px;
   text-align: center;
   color: black;
+  font-family: 'Lora', serif;
 }
 
 h3
 {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 32px;
   border-bottom: 1px #eee solid;
   color: #FFF7F7;
   margin-bottom: 2.5em;
   padding-bottom: .5em;
+  font-family: 'Lora', serif;
 }
 
 header.sidebar
@@ -101,7 +105,7 @@ div.sidebar_userimage img
 div.comunidad-autoria
 {
   border-bottom: solid 1px white;
-  background: black;
+  background: #360000;
   border-top: solid 1px white;
   padding: 3% 0;
   margin: 12% 0;
@@ -129,8 +133,9 @@ display: inline-block;
 vertical-align: top;
 padding: 0;
 margin: 0% 33%;
-font-size: 15px;
+font-size: 22px;
 text-align: center;
+font-family: 'Lora', serif;
 }
 
 div.nombre p
@@ -158,4 +163,6 @@ div.bloque p
 {
   color: rgb(255, 255, 255);
   line-height: 1.9em;
+  font-family: georgia, sans-serif;
+  text-align: justify;
 }
